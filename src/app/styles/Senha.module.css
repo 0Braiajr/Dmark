@@ -1,0 +1,31 @@
+.Senha p{
+    font-size: 20px;
+    text-align: start;
+    margin-bottom: 7px;
+    margin-left: 60px;
+    color: black;
+  }
+  
+  .Senha input {
+    width: 450px;
+    height: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    background-color: transparent;
+    border: 1px solid black;
+    margin-bottom: 50px;
+  }
+  
+  
+  /* PLACEHOLDER = TEXTO DENTRO DO INPUT*/
+  .Senha input::placeholder {
+    padding-left: 20px;
+    font-size: 15px;
+  }
+  
+  /* TIRANDO SETAS QUE APARECEM AO CLICAR NO INPUT */
+.Senha  input::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+}
+  

@@ -1,0 +1,10 @@
+.LoginBox {
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    text-align: center;
+}

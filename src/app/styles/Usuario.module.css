@@ -1,0 +1,48 @@
+.Usuario p{
+  font-size: 20px;
+  text-align: start;
+  margin-top: 100px;
+  margin-bottom: 7px;
+  margin-left: 60px;
+  color: black;
+}
+
+.Usuario input {
+  width: 450px;
+  height: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  background-color: transparent;
+  border: 1px solid black;
+  margin-bottom: 50px;
+}
+
+
+/* PLACEHOLDER = TEXTO DENTRO DO INPUT*/
+.Usuario input::placeholder {
+  padding-left: 20px;
+  font-size: 15px;
+}
+
+/* TIRANDO SETAS QUE APARECEM AO CLICAR NO INPUT */
+.Usuario  input::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+}
+
+/* O ARQUIVO ESTAVA COM DISPLAY:BLOCK, DESTRAVEI ELE PARA PODER MUDAR A POSICAO*/
+.loginText {
+  display: flex;
+}
+
+.loginText span {
+  font-size: 50px;
+  color: black;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
