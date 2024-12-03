@@ -1,6 +1,12 @@
 .body {
-    background: black;
+    background: white;
     height: 100vh;
+}
+
+.linha {
+    width: 100%;
+    border: 1px solid grey;
+    
 }
 
 .sobre {
@@ -19,8 +25,51 @@
 
 /* .BARRA_TAREFAS DIV para usar a margem em todas as divs da barra lateral de uma vez */
 .barra_tarefas div {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     border-radius: 10px;
+    background-color: grey;
+    width: 260px;
+    height: 60px;
+    text-align: start;
+}
+
+.barra_tarefas p {
+    font-size: 20px;
+}
+
+.anuncio {
+    width: 260px;
+    height: 500px;
+    background-color: grey;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.sobre_dmark h1 {
+    font-size: 60px;
+    text-align: center;
+    color: black;
+}
+
+.sobre_dmark p {
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 26px;
+    color: black;
+}
+
+.box_agendamento {
+    width: 550px;
+    height: 90vh;
+    margin-top: 70px;
     background-color: white;
-    padding: 10px 100px;
+    color: black;
+}
+
+/* ESSE P 'LOGO' ESTA SIMULANDO A LOGO (FOTO) DA DMARK, NAO CONSEGUIMOS UPAR FOTO NO CODIGO, ENTAO COLOCAMOS DESSA FORMA PARA FACILITAR A COMPREENSAO */ 
+
+.logo p {
+    text-align: center;
+    margin-bottom: 300px;
 }
