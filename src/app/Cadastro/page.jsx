@@ -1,61 +1,82 @@
+"use client";
 import styles from "../styles/Cadastro.module.css"
+import { useState } from "react";
+import { useRouter } from "next/navigation";
 
-export default function Cadastro() {
+export default function TelaCadastro() {
+
+  const [Usuario, setUsuario] = useState("");
+  const [Senha, setSenha] = useState("");
+  const [Nome, setNome] = useState ("");
+  const router = useRouter();
+  const VerificaCampos = (e) => {
+      e.preventDefault();
+
+    if (Usuario === "" || Senha === "" || Nome === "") {
+      // Cria um alerta se não estiver tudo preenchido.
+        alert("Por favor, preencha todos os campos.");
+    } 
+
+    else {
+        // Redireciona para a página ''
+        router.push("/QuemSomos");
+    }
+    };
+
     return (
       
-
-        <div className={styles.box}>
-
-
-          <div className={styles.cadastro}>
-            <div className={styles.cadastro_text}>
-              <span>CADASTRO</span>
-            </div>
-
-            <div className={styles.inputs}>
-               {/*apesar de não ter alterações no css, optamos por colocar classes em cada div dos inputs por uso futuro no javascript*/}
-              <div className={styles.nome}>
-                <p>
-                  Nome
-                </p>
-
-                <input type="text" name="" id="" placeholder='Digite seu nome...'/>
-              </div>
-
-              <div className={styles.numero}>
-                <p>
-                  Número
-                </p>
-                <input type="number" name="" id="" placeholder='Digite seu número...'/>
-              </div>
-
-              <div className={styles.senha}>
-                <p>
-                  Senha
-                </p>
-                <input type="password" name="" id="" placeholder='Digite sua senha...'/>
-              </div>
-              
-            </div>
-           
-
-          </div>
-
-          
-          <div className={styles.cadastrar_button}>
-
-            <a href=""><strong>Cadastrar-se</strong></a>
-
-          </div>
-
-        <div className={styles.ja_tem_conta}>
-
-          <a href="#">Já tem conta?</a>
-          
+      <form className={styles.box} onSubmit={VerificaCampos}>
+      <div className={styles.cadastro}>
+        <div className={styles.cadastro_text}>
+          <span>CADASTRO</span>
         </div>
-          
+
+        <div className={styles.nome}>
+          <p>Nome</p>
+          <label htmlFor="Nome"></label>
+          <input
+            type="text"
+            id="Nome"
+            placeholder="Digite seu nome..."
+            value={Nome}
+            onChange={(e) => setNome(e.target.value)}
+          />
         </div>
-          
-       
-  );
+
+        <div className={styles.numero}>
+          <p>Número</p>
+          <label htmlFor="Usuario"></label>
+          <input
+            type="number"
+            id="Usuario"
+            placeholder="Digite seu número..."
+            value={Usuario}
+            onChange={(e) => setUsuario(e.target.value)}
+          />
+        </div>
+
+        <div className={styles.senha}>
+          <p>Senha</p>
+          <label htmlFor="Senha"></label>
+          <input
+            type="password"
+            id="Senha"
+            placeholder="Digite sua senha..."
+            value={Senha}
+            onChange={(e) => setSenha(e.target.value)} 
+          />
+        </div>
+      </div>
+
+      <div className={styles.cadastrar_button}>
+        <button type="submit" className={styles.LinkCadastrar}>
+          <strong>Cadastrar-se</strong>
+        </button>
+      </div>
+
+      <div className={styles.ja_tem_conta}>
+        <a href="/">Já tem conta?</a>
+      </div>
+    </form>
+    );
 }
