@@ -9,7 +9,7 @@
 
 .box{
   width: 600px;
-  height: 70vh;
+  height: 800px;
   border-radius: 40px;
   background-color: white;
   margin-left: auto;
@@ -18,24 +18,7 @@
   margin-top: 100px;
 }
 
-.cadastro_text {
-  color: black;
-  font-size: 50px;
-  text-align: center;
-  margin-top: 5px;
-
-}
-
-.cadastro p{
-  font-size: 20px;
-  text-align: start;
-  
-  margin-bottom: 7px;
-  margin-left: 60px;
-  color: black;
-}
-
-.cadastro input {
+.inputs {
   width: 550px;
   height: 5vh;
   display: flex;
@@ -48,16 +31,37 @@
   color: black;
 }
 
+.cadastro_text {
+  color: black;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.cadastro p{
+  font-size: 20px;
+  text-align: start;
+  
+  margin-bottom: 7px;
+  margin-left: 60px;
+  color: black;
+}
+
 
 /* PLACEHOLDER = TEXTO DENTRO DO INPUT*/
 .cadastro input::placeholder {
   padding-left: 20px;
-  font-size: 15px;
+  font-size: 15px; 
 }
 
 /* TIRANDO SETAS QUE APARECEM AO CLICAR NO INPUT */
 .cadastro  input::-webkit-inner-spin-button{
   -webkit-appearance: none;
+}
+
+.cadastro input:focus{
+  outline: 1px solid rgb(137, 137, 167);
+  padding: 0 20px;
 }
 
 /* O ARQUIVO ESTAVA COM DISPLAY:BLOCK, DESTRAVEI ELE PARA PODER MUDAR A POSICAO*/
@@ -73,30 +77,37 @@
   margin-right: auto;
 }
 
-.cadastrar_button {
+
+.cadastrar_button button {
   color: black;
-  text-align: center;
-  padding: 13px 50px;
+  height: 50px;
+  width: 250px;
   border-radius: 10px;
   text-decoration: none;
   background: #D9D9D9;
-  width: 50%;
+  margin-left: 100px;
   margin-top: 50px;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
- }
+}
+
+.cadastrar_button .link_cadastrar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
  
-.cadastrar_button:hover {
-  cursor: pointer;
+.cadastrar_button button:hover {
+  cursor: pointer; 
 }
 
 .ja_tem_conta {
  color: #479aff;
- margin-top: 30px;
+ margin-top: 150px;
  margin-right: 50px;
  display: flex;
  justify-content: flex-end;
 }
-
 
 

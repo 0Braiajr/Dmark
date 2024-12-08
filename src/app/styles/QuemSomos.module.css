@@ -2,49 +2,6 @@
     background: white;
     height: 100vh;
 }
-
-.linha {
-    width: 100%;
-    border: 1px solid grey;
-    
-}
-
-.sobre {
-    display: flex;
-}
-
-.barra_lateral p{
-    color: black;
-}
-
-.barra_tarefas {
-    flex-direction: column;
-    margin-top: 250px;
-}
-
-
-/* .BARRA_TAREFAS DIV para usar a margem em todas as divs da barra lateral de uma vez */
-.barra_tarefas div {
-    margin-bottom: 20px;
-    border-radius: 10px;
-    background-color: grey;
-    width: 260px;
-    height: 60px;
-    text-align: start;
-}
-
-.barra_tarefas p {
-    font-size: 20px;
-}
-
-.anuncio {
-    width: 260px;
-    height: 500px;
-    background-color: grey;
-    border-radius: 5px;
-    margin-top: 10px;
-}
-
 .sobre_dmark h1 {
     font-size: 60px;
     text-align: center;

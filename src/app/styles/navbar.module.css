@@ -1,0 +1,48 @@
+.linha {
+    width: 260px;
+    border: 1px solid grey;   
+}
+
+.sobre {
+    display: flex;
+}
+
+.barra_lateral p{
+    color: black;
+}
+
+.barra_tarefas {
+    flex-direction: column;
+}
+/* .BARRA_TAREFAS DIV para usar a margem em todas as divs da barra lateral de uma vez */
+.barra_tarefas div {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: grey;
+    width: 260px;
+    height: 30px;
+    text-align: start;
+}
+
+.barra_tarefas p {
+    font-size: 20px;
+}
+
+.anuncio {
+    width: 260px;
+    height: 500px;
+    background-color: grey;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.inicio {
+    margin-top: 30px;
+}
+.cadastre_se {
+    margin-top: 100px;
+    border-radius: 10px;
+    background-color: grey;
+    width: 260px;
+    height: 60px;
+    text-align: start;
+}

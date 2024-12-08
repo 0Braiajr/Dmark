@@ -1,48 +1,15 @@
 import styles from "../styles/QuemSomos.module.css"
-
+import Navbar from "../componets/navbar"
 export default function QuemSomos() {
 
   return (
-<>
+    <>
+
+
   <div className={styles.body}>
-
-  
     
-      <div className={styles.sobre}>
 
-        <div className={styles.barra_lateral}>
-          <div className={styles.barra_tarefas}>
-            <div className={styles.cadastre_se}>
-              <p>Cadastre-se</p>
-            </div>
-
-            <div className={styles.inicio}> 
-              
-              <p>Início</p>
-            </div>
-
-            <div className={styles.categorias}>
-              <p>Categorias</p>
-            </div>
-
-            <div className={styles.quem_somos}>
-              <p>Quem somos</p>
-            </div>
-
-            <div className={styles.cadastrar_empresa}>
-              <p>Cadastre sua Empresa</p>
-            </div>
-
-          </div>
-
-          <div className={styles.linha}>
-
-          </div>
-
-          <div className={styles.anuncio}>
-
-          </div>
-        </div>
+    <div className={styles.sobre}>
 
         <div className={styles.sobre_dmark}>
           <div className={styles.logo}>
@@ -84,6 +51,9 @@ export default function QuemSomos() {
         
 
   </div>
+
+  <Navbar/>
+  
 </>
   );
 }
