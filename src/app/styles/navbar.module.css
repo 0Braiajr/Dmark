@@ -1,5 +1,6 @@
 .barra_lateral{
     margin-left: 15px;
+    
 }
 
 .barra_lateral p{
@@ -8,7 +9,7 @@
 
 .barra_tarefas {
     flex-direction: column;
-    margin-top: 250px;
+    margin-top: 20px;
 }
 
 /* .BARRA_TAREFAS DIV para usar a margem em todas as divs da barra lateral de uma vez */
@@ -35,10 +36,6 @@
 
 .barra_tarefas .cadastrar_empresa p{
     color: white;
-}
-
-.barra_tarefas .quem_somos{
-    background-color: grey;
 }
 
 .barra_tarefas .quem_somos p{

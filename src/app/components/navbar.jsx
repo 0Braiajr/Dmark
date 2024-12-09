@@ -15,7 +15,7 @@ export default function navbar() {
 
       <div className={styles.inicio}> 
         
-        <p>★ Início</p>
+        <a href="dashboard"><p>★ Início</p></a>
       </div>
 
       <div className={styles.categorias}>
@@ -23,7 +23,7 @@ export default function navbar() {
       </div>
 
       <div className={styles.quem_somos}>
-        <p>★ Quem somos</p>
+        <a href="about-us"><p>★ Quem somos</p></a>
       </div>
 
       <div className={styles.cadastrar_empresa}>

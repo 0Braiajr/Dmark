@@ -1,6 +1,6 @@
 .body {
     background: white;
-    height: 100vh;
+    height: 100%;
 }
 
 .sobre {
@@ -15,17 +15,18 @@
 }
 
 .sobre_dmark p {
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 50px;
     margin-right: 50px;
     font-size: 26px;
     color: black;
+    margin-bottom: 50px;
 }
 
 .box_agendamento {
     width: 60vh;
     height: 90vh;
-    margin-top: 70px;
+    margin-top: 20px;
     margin-right: 2vh;
     border-radius: 5px;
     background-color: grey;
@@ -67,6 +68,13 @@
 /* ESSE P 'LOGO' ESTA SIMULANDO A LOGO (FOTO) DA DMARK, NAO CONSEGUIMOS UPAR FOTO NO CODIGO, ENTAO COLOCAMOS DESSA FORMA PARA FACILITAR A COMPREENSAO */ 
 
 .logo p {
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
-    margin-bottom: 300px;
+    margin-bottom: 150px;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    align-content: center;
+    display: flexbox;
 }

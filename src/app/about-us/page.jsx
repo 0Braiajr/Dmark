@@ -1,10 +1,12 @@
 import styles from "../styles/about_us.module.css"
 import Navbar from "../components/navbar"
+import Footer from "../components/footer"
+import Header from "../components/header"
 export default function QuemSomos() {
 
   return (
     <>
-
+    <Header/>
 
   <div className={styles.body}>
     
@@ -59,6 +61,7 @@ export default function QuemSomos() {
       
 
   </div>
+  <Footer/>
         
 
  

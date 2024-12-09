@@ -1,0 +1,6 @@
+.body {
+    height: 100px;
+    width: 100%;
+    align-self: flex-end;
+    background-color: blue;
+}
