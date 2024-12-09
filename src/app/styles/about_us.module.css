@@ -1,0 +1,72 @@
+.body {
+    background: white;
+    height: 100vh;
+}
+
+.sobre {
+    display: flex;
+}
+
+.sobre_dmark h1 {
+    margin-top: -100px;
+    font-size: 60px;
+    text-align: center;
+    color: black;
+}
+
+.sobre_dmark p {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 26px;
+    color: black;
+}
+
+.box_agendamento {
+    width: 60vh;
+    height: 90vh;
+    margin-top: 70px;
+    margin-right: 2vh;
+    border-radius: 5px;
+    background-color: grey;
+    color: black;
+}
+
+.agendar{
+    font-size: 25px;
+    display: flex;
+    margin-left: 15%;
+    margin-top: 80%;
+}
+
+
+.foto_agendamento p{
+    font-size: 50px;
+    margin-left: 37%;
+    margin-top: 50%;
+}
+
+.agendar_button {
+    width: 15vh;
+    height: 4vh;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    margin-top: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.agendar_button a{
+    margin-top: 5%;
+    font-size: 25px;
+}
+
+/* ESSE P 'LOGO' ESTA SIMULANDO A LOGO (FOTO) DA DMARK, NAO CONSEGUIMOS UPAR FOTO NO CODIGO, ENTAO COLOCAMOS DESSA FORMA PARA FACILITAR A COMPREENSAO */ 
+
+.logo p {
+    text-align: center;
+    margin-bottom: 300px;
+}
