@@ -1,6 +1,48 @@
-.body {
-    height: 100px;
+.footer {
+    height: 20vh;
+    background: linear-gradient(to bottom, rgb(252, 252, 252), #585858);
     width: 100%;
-    align-self: flex-end;
-    background-color: blue;
+    text-align: start;
+}
+
+.logo {
+    width: 15vh;
+    height: 8vh;
+    background: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.infos {
+    text-align: center;
+}
+
+.infos p {
+    margin-bottom: .2%;
+    letter-spacing: 1px;
+}
+
+.logos_info {
+    display: flex;
+    justify-content: center;
+}
+
+.social_media {
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 1px;
+    width: 5vh;
+    height: 5vh;
+    background: black;
+    margin-left: 10px;
+}
+
+.developers p {
+    letter-spacing: 1px;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    background: #585858;
 }
